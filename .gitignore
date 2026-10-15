@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+tmp/
+pip-cache/
+baselines/*/wavs/
+baselines/*/requirements.lock.txt
