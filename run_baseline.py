@@ -88,7 +88,7 @@ def main() -> None:
         num_steps=a.num_steps,
         guidance_scale=a.guidance_scale,
     )
-    nfe = steps * (2 if cfg and cfg > 0 else 1)
+    nfe = steps
     print(f"Resolved: ode={ode}  num_steps={steps}  guidance_scale={cfg}  NFE={nfe}")
 
     gen_kwargs = dict(
